@@ -42,6 +42,10 @@ module Faker
       def genre
         fetch('music.genres')
       end
+
+      def song
+        fetch('music.songs')
+      end
     end
   end
 end
