@@ -46,6 +46,14 @@ module Faker
       def song
         fetch('music.songs')
       end
+
+      def spotify_track_id
+        fetch('music.spotify_track_ids')
+      end
+
+      def spotify_artist_id
+        fetch('music.spotify_artist_ids')
+      end
     end
   end
 end
